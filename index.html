@@ -26,173 +26,9 @@
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
     <link href="css/infinite-slider.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
 
-<style type="text/css">
-.verde {
-  color: #8cc540;
-  font-weight: 600;
-}
-
-.azul {
-  color: #3597bc;
-  font-size: 1.16rem;
-  font-weight: 200;
-}
-
-.celeste {
-  color: #3dc1f2;
-}
-
-.bloque {
-  float: left;
-  display: inline-block;
-  width: 50%;
-  border-right: 1px #1898d7 solid;
-}
-
-.bloque img {
-  width: 50%;
-}
-
-@media (min-width: 992px) {
-.top {
-  margin-top: -118px;
-}
-
-.top2 {
-  margin-top: -95px;
-}
-
-.top3 {
-  margin-top: -18px;
-}
-
-.margen {
-  margin-top: 180px;
-}
-
-.ml-s {
-    margin-left: .5rem!important;
-}
-
-.bold-gris {
-  font-size: 60px;
-  font-weight: 600px;
-}
-
-.bloque {
-  float: left;
-  display: inline-block;
-  width: 24%;
-  border-right: 1px #1898d7 solid;
-}
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
-
-hr {
-  background-color: #1898d7;
-}
-
-.rotar {
-  -ms-transform: rotate(-4deg); /* IE 9 */
-  -webkit-transform: rotate(-4deg); /* Safari 3-8 */
-  transform: rotate(-4deg);
-  -ms-transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-}
-
-.rotar:hover {
-  -ms-transform: rotate(0deg); /* IE 9 */
-  -webkit-transform: rotate(0deg); /* Safari 3-8 */
-  transform: rotate(0deg);
-}
-
-.absoluto {
-  position: absolute; 
-  margin-top: -220px;
-}
-
-
-.gris {
-  font-size: 35px;
-  font-weight: 300px;
-  line-height: 40px;
-  color: gray;
-}
-
-
-h5 {
-font-size: 1.20rem;
-}
-
-.menos-top {
-  margin-top: -12px;
-}
-
-.top4 {
-  margin-top: -165px;
-}
-
-.inferior {
-  margin-bottom: 121px;
-}
-
-.ml-c {
-    margin-left: 2.3rem!important;
-}
-
-
-#Contenedor{
-  width: 400px;
-  margin: 50px auto;
-  background-color: #F3EDED;
-        border: 1px solid #ECE8E8;
-  height: 350px;
-  border-radius:8px;
-  padding: 0px 9px 0px 9px;
-}
- 
-
-.opcioncontra{
-  text-align: center;
-  margin-top: 20px;
-  font-size: 14px;
-}
-
-.tipo-letra {
-  font-family: osvald;
-}
- 
-/**
- * En las siguientes lineas
- * se define el diseño adaptable, para que
- * se muestre en los dispositivos móviles
- */
- 
-/******************************************/
-/***    DISEÑO PARA MOVILES 320        ****/
-/******************************************/
-@media only screen and (max-width:320px){
-#Contenedor{
-  width: 100%;
-  height: auto;
-  margin: 0px;
-}
- 
-/******************************************/
-/***    DISEÑO PARA MOVILES 240        ****/
-/******************************************/
-@media only screen and (max-width:240px){
-  
-}
-
-</style>
 
 
   </head>
@@ -331,11 +167,11 @@ font-size: 1.20rem;
            <div id="Contenedor">
               <div>
                     <!--Icono de usuario-->
-                    <div class="opcioncontra"><h5>Login to Super Duper App</h5></div>
+                    <div class="opcioncontra"><h5 class="black"><strong>Login to Super Duper App</strong></h5></div>
                    <hr>
                  </div>
 <div class="ContentForm">
-      <form action="" method="post" name="FormEntrar">
+      <form class="relleno" action="" method="post" name="FormEntrar">
         <div class="input-group input-group-lg">
           <span class="input-group-addon" id="sizing-addon1"><i class="glyphicon glyphicon-envelope"></i></span>
           <input type="email" class="form-control" name="correo" placeholder="Username or Email" id="Correo" aria-describedby="sizing-addon1" required>
@@ -346,18 +182,16 @@ font-size: 1.20rem;
           <input type="password" name="contra" class="form-control" placeholder="Password" aria-describedby="sizing-addon1" required>
         </div>
         <br>
+        <div class="opcioncontra text-left bloque2"><label><input type="checkbox" id="cbox1" value="first_checkbox"> <span class="black">Remember me on this computer</span></label></div>
         <button class="btn btn-lg btn-primary btn-signin" id="IngresoLog" type="submit">Login</button>
-        <div class="opcioncontra"><a href="">Remenberme on this computer</a></div>
       </form>
      </div> 
      </div>
 
-
-
-
             </div>
-            <p class="lead mb-0">Forgot your password?
-              <a href="http://startbootstrap.com">Click here to reset it</a>.</p>
+
+            <p class="mb-0 top3">Forgot your password?
+              <a class="gris3" href="http://startbootstrap.com">Click here to reset it</a>.</p>
           </div>
           <div class="col-md-3">
             

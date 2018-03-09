@@ -1,0 +1,189 @@
+.verde {
+  color: #8cc540;
+  font-weight: 600;
+}
+
+.azul {
+  color: #3597bc;
+  font-size: 1.16rem;
+  font-weight: 200;
+}
+
+.celeste {
+  color: #3dc1f2;
+}
+
+.bloque {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  border-right: 1px #1898d7 solid;
+}
+
+.bloque2 {
+  float: left;
+  display: inline-block;
+  width: 70%;
+}
+
+.bloque img {
+  width: 50%;
+}
+
+.relleno {
+  padding: 0 28px;
+}
+
+@media (min-width: 992px) {
+.top {
+  margin-top: -118px;
+}
+
+.top2 {
+  margin-top: -95px;
+}
+
+.top3 {
+  margin-top: -18px;
+}
+
+.margen {
+  margin-top: 180px;
+}
+
+.ml-s {
+    margin-left: .5rem!important;
+}
+
+.bold-gris {
+  font-size: 60px;
+  font-weight: 600px;
+}
+
+.bloque {
+  float: left;
+  display: inline-block;
+  width: 24%;
+  border-right: 1px #1898d7 solid;
+}
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+hr {
+  background-color: #1898d7;
+}
+
+.rotar {
+  -ms-transform: rotate(-4deg); /* IE 9 */
+  -webkit-transform: rotate(-4deg); /* Safari 3-8 */
+  transform: rotate(-4deg);
+  -ms-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.rotar:hover {
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Safari 3-8 */
+  transform: rotate(0deg);
+}
+
+.absoluto {
+  position: absolute; 
+  margin-top: -220px;
+}
+
+
+.gris {
+  font-size: 35px;
+  font-weight: 300px;
+  line-height: 40px;
+  color: gray;
+}
+
+.gris2 {
+  font-weight: 600px;
+  line-height: 20px;
+  color: gray;
+}
+
+.gris3 { 
+  font-weight: 600px;
+  line-height: 20px;
+  color: silver;
+}
+
+.black {
+  font-weight: 600px;
+  line-height: 20px;
+  color: black;
+}
+
+h5 {
+font-size: 1.20rem;
+}
+
+.menos-top {
+  margin-top: -12px;
+}
+
+.top4 {
+  margin-top: -165px;
+}
+
+.inferior {
+  margin-bottom: 121px;
+}
+
+.ml-c {
+    margin-left: 2.3rem!important;
+}
+
+
+#Contenedor{
+  width: 400px;
+  margin: 50px auto;
+  background-color: #fdfdfd;
+  border: 1px solid #ECE8E8;
+  height: 310px;
+  border-radius:8px;
+  padding: 0px;
+}
+ 
+
+.opcioncontra{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.tipo-letra {
+  font-family: osvald;
+}
+ 
+/**
+ * En las siguientes lineas
+ * se define el diseño adaptable, para que
+ * se muestre en los dispositivos móviles
+ */
+ 
+/******************************************/
+/***    DISEÑO PARA MOVILES 320        ****/
+/******************************************/
+@media only screen and (max-width:320px){
+#Contenedor{
+  width: 100%;
+  height: auto;
+  margin: 0px;
+}
+ 
+/******************************************/
+/***    DISEÑO PARA MOVILES 240        ****/
+/******************************************/
+@media only screen and (max-width:240px){
+  
+}
